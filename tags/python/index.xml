@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on SDS 348 Final Project</title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on SDS 348 Final Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This is my Blog Post</title>
+      <link>/post/2021/05/11/this-is-my-blog-post/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/05/11/this-is-my-blog-post/</guid>
+      <description>#R code chunk library(reticulate) welcome&amp;lt;-&amp;quot;There are so many interesting things to learn in python and r studio! &amp;quot; #Python code chunk now=&amp;quot;In the following post, I would like to share some of the skills I have been working on.&amp;quot; print(r.welcome,now) #access R-defined objects with r.  ## There are so many interesting things to learn in python and r studio! In the following post, I would like to share some of the skills I have been working on.</description>
+    </item>
+    
+  </channel>
+</rss>

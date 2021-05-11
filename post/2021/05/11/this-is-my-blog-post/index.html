@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jyotis Joy" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../../img/favicon.ico">
+    <title>This is my Blog Post</title>
+    <meta name="generator" content="Hugo 0.83.1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="../../../../../"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="../../../../../post/">BLOG</a></li>
+        
+        <li><a href="../../../../../projects/">PROJECTS</a></li>
+        
+        <li><a href="../../../../../resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="../../../../../post/2021/05/11/this-is-my-blog-post/">This is my Blog Post</a></strong>
+          </h3>
+        </div>
+ 
+<div class="blog-title">
+          <h4>
+         May 11, 2021 
+            &nbsp;&nbsp;
+            
+            <span class="label label-success">python</span>
+            
+          </h4>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+
+<pre class="r"><code>#R code chunk
+library(reticulate)
+welcome&lt;-&quot;There are so many interesting things to learn in python and r studio! &quot;</code></pre>
+<pre class="python"><code>#Python code chunk
+now=&quot;In the following post, I would like to share some of the skills I have been working on.&quot;
+print(r.welcome,now) #access R-defined objects with r. </code></pre>
+<pre><code>## There are so many interesting things to learn in python and r studio!  In the following post, I would like to share some of the skills I have been working on.</code></pre>
+<pre class="python"><code>
+list2=[&#39;monkey&#39;, &#39;giraffe&#39;,&#39;shark&#39;,&#39;caterpillar&#39;, &#39;squid&#39;,&#39;jellyfish&#39;]
+list2[0]</code></pre>
+<pre><code>## &#39;monkey&#39;</code></pre>
+<pre class="python"><code>list2[3:5]</code></pre>
+<pre><code>## [&#39;caterpillar&#39;, &#39;squid&#39;]</code></pre>
+<pre class="python"><code>list2[-1]</code></pre>
+<pre><code>## &#39;jellyfish&#39;</code></pre>
+<pre class="python"><code>list2[2] = &#39;cat&#39;
+print(list2)</code></pre>
+<pre><code>## [&#39;monkey&#39;, &#39;giraffe&#39;, &#39;cat&#39;, &#39;caterpillar&#39;, &#39;squid&#39;, &#39;jellyfish&#39;]</code></pre>
+<pre class="python"><code>list2.append(&#39;spider&#39;)
+print(list2)</code></pre>
+<pre><code>## [&#39;monkey&#39;, &#39;giraffe&#39;, &#39;cat&#39;, &#39;caterpillar&#39;, &#39;squid&#39;, &#39;jellyfish&#39;, &#39;spider&#39;]</code></pre>
+<pre class="python"><code>&quot;dog&quot; in list2</code></pre>
+<pre><code>## False</code></pre>
+<pre class="python"><code>&quot;monkey&quot; in list2</code></pre>
+<pre><code>## True</code></pre>
+<p>```{python}<img src="../../../../../post/2021-05-11-this-is-my-blog-post_files/proj3.jpeg" alt="useful image to associate with the dictionary words" />
+molecules = {“hair”:“keratin”, “DNA”:“nucleotides”, “protein”:“amino acids”}
+print(molecules)
+molecules[“DNA”]
+molecules[“ribosomes”] = “RNA”
+print(molecules)
+molecules[“RNA”] = “nucleotides”
+print(molecules)
+molecules[“ribosomes”] = “rRNA”
+print(molecules)
+print(molecules.keys())
+print(molecules.values())</p>
+<p>keys_values = list(zip(molecules.keys(), molecules.values()))
+print(keys_values)
+dict(keys_values)
+```</p>
+
+            
+        <hr>         <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div> 
+            </div>
+          </div>
+
+   <hr>  <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div> 
+        </div>
+      </div>
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="../../../../../js/docs.min.js"></script>
+<script src="../../../../../js/main.js"></script>
+
+<script src="../../../../../js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>
