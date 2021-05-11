@@ -8,12 +8,12 @@
     <language>en-US</language>
     <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>This is my Blog Post</title>
+      <title>How python is used in Comp Bio</title>
       <link>/post/2021/05/11/this-is-my-blog-post/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/post/2021/05/11/this-is-my-blog-post/</guid>
-      <description>#R code chunk library(reticulate) welcome&amp;lt;-&amp;quot;There are so many interesting things to learn in python and r studio! &amp;quot; #Python code chunk now=&amp;quot;In the following post, I would like to share some of the skills I have been working on.&amp;quot; print(r.welcome,now) #access R-defined objects with r.  ## There are so many interesting things to learn in python and r studio! In the following post, I would like to share some of the skills I have been working on.</description>
+      <description>Throughout the semester, we had 2 big projects where we used R studio to analyze data. Both were very interesting and challenging projects to do. As the semester is coming to an end, the last concept that we learned about was Python. Python is a very useful language due to its productivity and simple programming syntax. In this post, I would like to demonstrate some of the skill that I have been working on.</description>
     </item>
     
   </channel>

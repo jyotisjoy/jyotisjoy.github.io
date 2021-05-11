@@ -1,5 +1,5 @@
 ---
-title: This is my Blog Post
+title: How python is used in Comp Bio
 author: 'Jyotis Joy'
 date: '2021-05-11'
 slug: this-is-my-blog-post
@@ -7,6 +7,8 @@ categories: ["R"]
 tags: ["python"]
 description: ''
 ---
+
+Throughout the semester, we had 2 big projects where we used R studio to analyze data. Both were very interesting and challenging projects to do. As the semester is coming to an end, the last concept that we learned about was Python. Python is a very useful language due to its productivity and simple programming syntax. In this post, I would like to demonstrate some of the skill that I have been working on. 
 ```{R}
 #R code chunk
 library(reticulate)
@@ -35,6 +37,7 @@ print(list2)
 ```
 
 ```{python}![useful image to associate with the dictionary words](/post/2021-05-11-this-is-my-blog-post_files/proj3.jpeg)
+
 molecules = {"hair":"keratin", "DNA":"nucleotides", "protein":"amino acids"}
 print(molecules)
 molecules["DNA"]
